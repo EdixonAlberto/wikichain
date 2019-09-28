@@ -1,0 +1,25 @@
+{
+  "name": "wikichain",
+  "version": "1.0.0",
+  "description": "APP WEB para documentar todo tipo de conceptos relacionados al Blockchain",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdixonAlberto/wikichain.git"
+  },
+  "keywords": [
+    "encyclopedia",
+    "blockchain",
+    "cryptocurrency"
+  ],
+  "author": {
+    "name": "Edixon Alberto",
+    "email": "edixonalbertto@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EdixonAlberto/wikichain/issues"
+  },
+  "homepage": "https://github.com/EdixonAlberto/wikichain#readme"
+}

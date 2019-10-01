@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "APP WEB para documentar todo tipo de conceptos relacionados al Blockchain",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "ts:node": "ts-node ./src/server.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EdixonAlberto/wikichain.git"
@@ -21,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/EdixonAlberto/wikichain/issues"
   },
-  "homepage": "https://github.com/EdixonAlberto/wikichain#readme"
+  "homepage": "https://github.com/EdixonAlberto/wikichain#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "dotenv": "^8.1.0",
+    "nodemon": "^1.19.3",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

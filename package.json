@@ -4,7 +4,10 @@
   "description": "APP WEB para documentar todo tipo de conceptos relacionados al Blockchain",
   "main": "index.js",
   "scripts": {
-    "ts:node": "ts-node ./src/server.ts"
+    "clean": "",
+    "dev": "ts-node src",
+    "prod": "",
+    "start": "yarn run nodemon"
   },
   "repository": {
     "type": "git",

@@ -21,7 +21,7 @@ APP WEB para documentar todo tipo de conceptos relacionados al Blockchain
 - NodeJs (Typescript)
 - Express
 - AWS
-- PosgreSQL (Secuelize)
+- PosgreSQL (Sequelize)
 
 **Frontend**
 
@@ -42,7 +42,7 @@ APP WEB para documentar todo tipo de conceptos relacionados al Blockchain
 - ESLint
 - Full punto y coma
 - .env (dotenv)
-- NPM
+- Yarn
 
 ---
 

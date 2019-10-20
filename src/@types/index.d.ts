@@ -1,9 +1,7 @@
-type typeConfigSequelize = {
-  database: string,
-  username: string
-  password: string
-  host: string,
-  port: number
+type typeConcept = {
+  title: string,
+  info: string,
+  img: string
 }
 
-export { typeConfigSequelize };
+export { typeConcept }

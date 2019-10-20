@@ -1,20 +1,14 @@
 import { Options } from 'sequelize';
-import { typeConfigSequelize } from '@types';
 
-const env: NodeJS.ProcessEnv = process.env;
-let config: typeConfigSequelize;
+const env = process.env;
 let options: Options;
+const ENGINE = 'postgres';
 
-config = {
-  database: env.DB_NAME as string,
-  username: env.DB_USERNAME as string,
-  password: env.DB_PASSWORD as string,
-  host: env.DB_HOST as string,
-  port: env.DB_PORT as unknown as number
-}
+// format uri: "engine://user:password@host:port/db_name"
+const uri = `${ENGINE}://${env.DB_USERNAME}:${env.DB_PASSWORD}@${env.DB_HOST}:${env.DB_PORT}/${env.DB_NAME}`;
 
 options = {
-  dialect: 'postgres',
+  dialect: ENGINE,
   pool: {
     max: 5,
     min: 0,
@@ -24,4 +18,4 @@ options = {
   logging: false
 }
 
-export { config, options };
+export { uri, options };

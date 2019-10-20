@@ -2,8 +2,11 @@ import express, { Application } from 'express';
 import morgan from 'morgan';
 import { resolve as pathResolve } from 'path';
 
+/* MIDDLEWARE */
+import errorHandlerMiddleware from './middlewares/errorHandler';
+
 /* ROUTES */
-import conceptsRoutes from './routes/concepts.routes';
+import conceptsRoute from './routes/concepts.routes';
 
 class Server {
   private app: Application;
@@ -27,12 +30,13 @@ class Server {
   private middlewares(): void {
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: false }));
-    Server.NODE_ENV === 'development' ? this.app.use(morgan('dev')) : null;
+    (Server.NODE_ENV === 'development') ? this.app.use(morgan('dev')) : null;
     this.app.use(express.static(Server.PATH_STATIC));
   }
 
   private routes(): void {
-    this.app.use('/api', conceptsRoutes);
+    this.app.use('/api/concepts', conceptsRoute);
+    this.app.use(errorHandlerMiddleware);
   }
 
   public async start(port: number = Server.PORT): Promise<void> {

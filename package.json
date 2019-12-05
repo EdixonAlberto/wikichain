@@ -1,0 +1,21 @@
+{
+  "name": "doc-wikichain",
+  "version": "0.0.1",
+  "description": "Encyclopedea of blockchain",
+  "main": "index.js",
+  "author": "EdixonAlberto <edixonalbertto@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "gh-pages -o github -d ./docs/.vuepress/dist",
+    "post": "npm run build && npm run deploy"
+  },
+  "dependencies": {
+    "vuepress": "^1.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}

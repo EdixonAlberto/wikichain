@@ -3,7 +3,6 @@ const folders = {
 };
 
 module.exports = {
-  base: '/doc-wikichain/',
   title: 'Wikichain',
   lang: 'es-VE',
   description: 'Enciclopedia de Blockchain',

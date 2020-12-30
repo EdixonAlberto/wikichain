@@ -1,21 +1,36 @@
 {
   "name": "doc-wikichain",
-  "version": "0.0.1",
-  "description": "Encyclopedea of blockchain",
-  "main": "index.js",
-  "author": "EdixonAlberto <edixonalbertto@gmail.com>",
+  "version": "1.0.0",
+  "description": "Una enciclopedia en español dedicada al mundo de las criptomonedas y el blockchain",
+  "keywords": [
+    "bitcoin",
+    "blockchain",
+    "encyclopedia",
+    "vuejs",
+    "vuepress",
+    "stylus",
+    "markdown",
+    "cryptocurrency"
+  ],
+  "author": {
+    "name": "Edixon Piña",
+    "email": "edixonalbertto@gmail.com",
+    "url": "https://www.edixonalberto.com"
+  },
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "gh-pages -o github -d ./docs/.vuepress/dist",
-    "post": "npm run build && npm run deploy"
+    "lint": "prettier --write ./src/**/*.{js,json,ts,md}",
+    "build": "vuepress build src",
+    "start": "vuepress dev src"
   },
-  "dependencies": {
-    "vuepress": "^1.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "prettier": "^2.2.1",
+    "vuepress": "^1.7.1"
+  },
+  "engines": {
+    "node": "^12.18.0",
+    "yarn": "^1.22.0"
   }
 }

@@ -1,14 +1,27 @@
 # Doc Wikichain
 
-[![Linkedin: https://linkedin.com/in/edixonalberto](https://img.shields.io/badge/author-EdixonAlberto-purple.svg)](https://linkedin.com/in/edixonalberto)
-[![MIT license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE.md)
-[![Donate PayPal](https://img.shields.io/badge/give-donation-blue.svg)](https://paypal.me/edixonp)
+[![](https://img.shields.io/badge/author-Edixon_Piña-blue.svg?&style=flat-square)](https://www.edixonalberto.com)
+[![](https://img.shields.io/github/license/edixonalberto/doc-wikichain?style=flat-square)](./LICENSE)
+[![](https://api.netlify.com/api/v1/badges/7c0f8347-1ab2-44a5-a05e-ac51e7378f62/deploy-status)](https://wikichain.netlify.app)
 
-![Twitter](https://img.shields.io/twitter/follow/EdixonAlbertto.svg?style=social)
-![GitHub](https://img.shields.io/github/followers/EdixonAlberto.svg?label=Follow&style=social)
+Una **enciclopedia en español** dedicada al mundo de las **criptomonedas** y el
+**blockchain**
 
-Encyclopedea of blockchain
+### Visitar el sitio &#x279c; https://wikichain.netlify.app
 
-### Screens
+## Contribuir
 
-![image](./files/image.png)
+- Crear ruta del nuevo documento en [./src/vuepress/config.js](./src/.vuepress/config.js)
+
+- Crear nuevo documento markdown
+
+- Formatear los archivos creados ejecutando `yarn lint`
+
+- Crear pull request hacia el branch **dev**
+
+## Brindame un Café ☕️
+
+```
+BTC 13SZoSRr2QT89f9ezpvVnf3G7vW4j8kjcK
+ETH 0xb963aeff0fde4de6ee413bb68aedb33800acb1a0
+```

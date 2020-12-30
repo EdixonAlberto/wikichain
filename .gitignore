@@ -1,1 +1,7 @@
-/node_modules
+# Folders
+.vscode/
+node_modules/
+dist/
+
+# FIles
+*.txt

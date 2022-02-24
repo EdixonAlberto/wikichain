@@ -1,16 +1,13 @@
 const folders = {
   cryptos: 'criptomonedas'
-};
+}
 
 module.exports = {
   title: 'Wikichain',
   lang: 'es-VE',
   description: 'Enciclopedia de Blockchain',
   head: [
-    [
-      'link',
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
-    ]
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }]
     // ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
@@ -35,11 +32,7 @@ module.exports = {
       {
         title: 'Criptomonedas',
         collapsable: true,
-        children: [
-          `/${folders.cryptos}/dai`,
-          `/${folders.cryptos}/bnb`,
-          `/${folders.cryptos}/twt`
-        ]
+        children: [`/${folders.cryptos}/dai`, `/${folders.cryptos}/bnb`, `/${folders.cryptos}/twt`]
       }
     ],
     activeHeaderLinks: false,
@@ -50,4 +43,4 @@ module.exports = {
       permalink: false
     }
   }
-};
+}

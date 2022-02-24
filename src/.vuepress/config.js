@@ -5,7 +5,7 @@ const folders = {
 module.exports = {
   title: 'Wikichain',
   lang: 'es-VE',
-  description: 'Enciclopedia de Blockchain',
+  description: 'Enciclopedia sobre mundo de las criptomonedas y el blockchain',
   head: [
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }]
     // ['link', { rel: 'icon', href: '/favicon.ico' }]
@@ -20,7 +20,6 @@ module.exports = {
         collapsable: false,
         children: [
           '/',
-          '/blockchain',
           '/smart-contracts',
           '/halving',
           '/testnet'

@@ -24,13 +24,13 @@ yarn start # Ejecutar el proyecto en modo desarrollo
 
 ## Contribuir
 
-- Crear ruta del nuevo documento en [./src/vuepress/config.js](./src/.vuepress/config.js)
+- Crear ruta del nuevo documento en `./src/.vuepress/config.js`
 
 - Crear el nuevo documento markdown en `./src`
 
 - Formatear los archivos con Prettier ejecutando el comando `yarn lint`
 
-- Crear pull request hacia el branch **dev**
+- Crear pull request hacia el branch `dev`
 
 ## Bríndame un Café ☕️
 

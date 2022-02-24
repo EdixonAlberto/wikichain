@@ -13,5 +13,5 @@ Las redes de tipo testnet tienen las siguientes características:
   red mainnet, haciéndolas totalmente incompatibles.
 - El algoritmo de dificultad de minado de sus monedas esta limitado para que este no aumente.
 
-[blockchain]: /blockchain/
+[blockchain]: /
 [mainnet]: /mainnet/

@@ -7,5 +7,5 @@ Es un [token] de criptomeneda generado en la [blockchain] de [Binance].
 <!-- es un activo digital con una capitalización de mercado de $0 -->
 
 [token]: /token/
-[blockchain]: /blockchain/
+[blockchain]: /
 [binance]: /binance/

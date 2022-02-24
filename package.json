@@ -1,7 +1,7 @@
 {
-  "name": "doc-wikichain",
+  "name": "wikichain",
   "version": "1.0.0",
-  "description": "Una enciclopedia en español dedicada al mundo de las criptomonedas y el blockchain",
+  "description": "Una enciclopedia en español sobre el mundo de las criptomonedas y el blockchain",
   "keywords": [
     "bitcoin",
     "blockchain",
@@ -12,15 +12,13 @@
     "markdown",
     "cryptocurrency"
   ],
+  "license": "MIT",
   "author": {
     "name": "Edixon Piña",
-    "email": "edixonalbertto@gmail.com",
-    "url": "https://www.edixonalberto.com"
+    "email": "edixonalbertto@gmail.com"
   },
-  "license": "MIT",
-  "private": false,
   "scripts": {
-    "lint": "prettier --write ./src/**/*.{js,json,ts,md}",
+    "lint": "prettier --write ./src/**/*.{md,js,json}",
     "build": "vuepress build src",
     "start": "vuepress dev src"
   },
@@ -30,7 +28,7 @@
     "vuepress": "^1.7.1"
   },
   "engines": {
-    "node": "^12.18.0",
-    "yarn": "^1.22.0"
+    "node": ">=14.18.2",
+    "yarn": "~1.22.0"
   }
 }

@@ -1,7 +1,7 @@
-# Folders
+# FOLDERS
 .vscode/
 node_modules/
 dist/
 
-# FIles
+# FILES
 *.txt

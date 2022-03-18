@@ -31,7 +31,12 @@ module.exports = {
       {
         title: 'Criptomonedas',
         collapsable: true,
-        children: [`/${folders.cryptos}/dai`, `/${folders.cryptos}/bnb`, `/${folders.cryptos}/twt`]
+        children: [
+          `/${folders.cryptos}/dai`,
+          `/${folders.cryptos}/bnb`,
+          `/${folders.cryptos}/twt`,
+          `/${folders.cryptos}/upco2`
+        ]
       }
     ],
     activeHeaderLinks: false,

@@ -12,6 +12,16 @@ Una **enciclopedia en español** sobre el mundo de las **criptomonedas** y el **
 
 ---
 
+## Como Contribuir
+
+- Crear ruta del nuevo documento en `./src/.vuepress/config.js`
+
+- Crear el nuevo documento markdown en `./src`
+
+- Formatear los archivos con Prettier ejecutando el comando `yarn lint`
+
+- Crear pull request hacia el branch `dev`
+
 ## Comandos
 
 ```sh
@@ -21,16 +31,6 @@ yarn build # Compilar el proyecto
 
 yarn start # Ejecutar el proyecto en modo desarrollo
 ```
-
-## Contribuir
-
-- Crear ruta del nuevo documento en `./src/.vuepress/config.js`
-
-- Crear el nuevo documento markdown en `./src`
-
-- Formatear los archivos con Prettier ejecutando el comando `yarn lint`
-
-- Crear pull request hacia el branch `dev`
 
 ## Bríndame un Café ☕️
 

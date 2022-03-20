@@ -1,7 +1,3 @@
-const folders = {
-  cryptos: 'criptomonedas'
-}
-
 module.exports = {
   title: 'Wikichain',
   lang: 'es-VE',
@@ -13,30 +9,20 @@ module.exports = {
   themeConfig: {
     search: true,
     // logo: '/img/image.png',
-    nav: [{ text: 'Acerca', link: '/aboutme' }],
+    nav: [{ text: 'GitHub', link: 'https://github.com/EdixonAlberto/wikichain' }],
     sidebar: [
       {
         title: 'Inicio',
         collapsable: false,
-        children: [
-          '/',
-          '/smart-contracts',
-          '/halving',
-          '/testnet'
-          // '/makerDao',
-          // '/ethereum',
-          // '/ether'
-        ]
+        path: '/',
+        children: ['/smart-contracts', '/halving', '/testnet']
       },
       {
         title: 'Criptomonedas',
-        collapsable: true,
-        children: [
-          `/${folders.cryptos}/dai`,
-          `/${folders.cryptos}/bnb`,
-          `/${folders.cryptos}/twt`,
-          `/${folders.cryptos}/upco2`
-        ]
+        collapsable: false,
+        path: '/criptomonedas/',
+
+        children: ['/criptomonedas/dai', '/criptomonedas/bnb', '/criptomonedas/twt', '/criptomonedas/upco2']
       }
     ],
     activeHeaderLinks: false,
@@ -46,5 +32,8 @@ module.exports = {
     anchor: {
       permalink: false
     }
-  }
+  },
+  repo: 'https://github.com/EdixonAlberto/wikichain',
+  docsBranch: 'main',
+  docsDir: 'src'
 }
